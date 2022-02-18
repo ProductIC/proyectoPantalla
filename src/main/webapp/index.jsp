@@ -49,6 +49,7 @@
                     </div>
 
                     <button class="btn btn-outline-light btn-lg px-3" type="submit" id="login_button">Login</button>
+                    <button class="btn btn-outline-light btn-lg px-3" type="submit" id="login_button">Registro</button>
 
                   </div>
                 </div>
