@@ -4,6 +4,7 @@
     Author     : 34622
 --%>
 
+<%@page import="Datos.GestionUsuarios"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -30,6 +31,11 @@
       }
     </style>
   <body id="body_login">
+      <%
+        GestionUsuarios gu=new GestionUsuarios();
+        String usuario="",contraseña="";
+        
+          %>
     <div class="login">
       <section class="vh-60 gradient-custom">
         <div class="container py-3 h-60">
