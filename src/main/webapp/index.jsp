@@ -19,12 +19,12 @@
     <!--Los logos  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <link rel="stylesheet" href="css/pantalla.css">
+  <link rel="stylesheet" href="pantalla.css">
     <title></title>
   <body id="body_login">
     <div class="login">
       <div class="imgFondo">
-          <img style="width:100%" src="/fondo.jpeg" alt=""/>
+          <img style="width:100%" src="img/fondo.jpeg" alt=""/>
       </div>
       <section class="vh-60 gradient-custom">
         <div class="container py-3 h-60">
@@ -47,8 +47,10 @@
                       <label class="form-label" for="typePasswordX">Contraseña</label>
                       <input type="password" id="typePasswordX" class="form-control form-control-lg" placeholder="Contraseña"/>
                     </div>
-
-                    <button class="btn btn-outline-light btn-lg px-3" type="submit" id="login_button">Login</button>
+                    <form method="GET" action="inicio_administrador.jsp">
+                        <button class="btn btn-outline-light btn-lg px-3" type="submit" id="login_button">Login</button>
+                    </form>
+                    
                     <button class="btn btn-outline-light btn-lg px-3" type="submit" id="login_button">Registro</button>
 
                   </div>

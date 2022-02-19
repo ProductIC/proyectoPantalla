@@ -1,0 +1,238 @@
+*{
+  padding:1vh;
+  margin:1vh;
+}
+
+h3{
+  font-size:2.3vw;
+}
+
+body{
+  background-color: #EAEAEA;
+}
+
+/* ---------------------------------------------------------Noticias-------------------------------------------------------- */
+
+.Pantalla1 {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  font-size: 1.5vw;
+  color: #FFFFFF
+}
+
+.Titulo{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: #646464;
+  margin-left: 20%;
+}
+
+img{
+  position: relative;
+  height: auto;
+}
+
+.img1{
+  float: left;
+  padding-right: 2vh;
+}
+
+.img2{
+  float: right;
+  padding-left: 2vh;
+}
+
+.img3{
+  float: left;
+  padding-right: 2vh;
+}
+
+.noticia1{
+  position: relative;
+  top: 20%;
+  left: 12%;
+  color: #646464;
+}
+
+.noticia2{
+  position: relative;
+  top: 50%;
+  left: 12%;
+  color: #646464;
+}
+
+.noticia3{
+  position: relative;
+  top: 80%;
+  left: 12%;
+  color: #646464;
+}
+
+/* ---------------------------------------------------------Días festivos-------------------------------------------------------- */
+
+
+* {box-sizing: border-box;}
+ul {
+  list-style-type: none;
+}
+h1 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #646464;
+    font-size:5vh;
+}
+
+#body_festivos {font-family: 'Ubuntu', sans-serif;}
+
+.month {
+margin-top: 7.5%;
+width: 49%;
+background: #1abc9c;
+text-align: center;
+}
+
+.month ul {
+margin: 0;
+padding: 0;
+}
+
+.month ul li {
+color: white;
+font-size: 2.2vh;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+.month .prev {
+float: left;
+padding-top: 1.2vh;
+}
+
+.month .next {
+float: right;
+padding-top: 1.2vh;
+}
+
+.weekdays {
+margin: 0;
+padding: 1.2vh 0;
+background-color: #ddd;
+}
+
+.weekdays li {
+display: inline-block;
+width: 11.5%;
+color: #666;
+text-align: center;
+}
+
+.days {
+padding: 1.2vh 0;
+background: #eee;
+margin: 0;
+}
+
+.days li {
+list-style-type: none;
+display: inline-block;
+width: 11.5%;
+text-align: center;
+margin-bottom: 2px;
+font-size:12px;
+color: #777;
+}
+
+.days li .active {
+padding: 5px;
+background: #1abc9c;
+color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:50%) {
+.weekdays li, .days li {width: 8.1%;}
+}
+
+@media screen and (max-width: 45%) {
+.weekdays li, .days li {width: 8.5%;}
+.days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 40%) {
+.weekdays li, .days li {width: 8.2%;}
+}
+
+table {
+  border-collapse: collapse;
+  width: 30%;
+  float: right;
+
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+/* ------------------------------------------------------Logins y Altas-------------------------------------------------------------- */
+
+.imgFondo{
+  position: absolute;
+  width: 90%;
+  margin-top: 5%;
+}
+
+.gradient-custom{
+  position: relative;
+  height: 80vh;
+}
+
+#adm_usr{
+  font-size: 3vh;
+  font-variant: small-caps;
+}
+
+#Email{
+  font-size: 3.5vh;
+  font-variant: small-caps;
+}
+
+#typeEmailX{
+  font-size: 3vh;
+  font-variant: small-caps;
+}
+
+#Contraseña{
+  font-size: 3.5vh;
+  font-variant: small-caps;
+}
+
+#typePasswordX{
+  font-size: 3vh;
+  font-variant: small-caps;
+}
+
+#login_button{
+  font-size: 3vh;
+  font-variant: small-caps;
+  margin-top: 10%;
+}
+
+/* ---------------------------------------------------- Asistencias del Profesorado ----------------------------------------------------- */
+
+#tabla_profesorado{
+  position: absolute;
+  text-align: center;
+  width: 80%;
+  margin: 10%;
+}
+
+#titulo_ast{
+  margin: 5%;
+}
